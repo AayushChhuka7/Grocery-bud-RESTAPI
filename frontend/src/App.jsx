@@ -6,7 +6,8 @@ import "./App.css";
 import Form from "./components/Form";
 
 // Added server URL above App component
-const BASE_URL = "http://127.0.0.1:8000/api/grocery";
+const BASE_URL =
+  process.env.REACT_APP_API_URL || "http://127.0.0.1:8000/api/grocery";
 
 const App = () => {
   // Updated initial items state to be an empty list
