@@ -105,7 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", # Vite's default port
+    "http://localhost:5173",
+     "https://grocery-bud-restapi.vercel.app/" # Vite's default port
 ]
 
 # Internationalization
